@@ -1,0 +1,57 @@
+.home {
+  background-color: #f5faf9;
+  min-height: 100vh;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+}
+
+.hero h1 {
+  font-size: 40px;
+  color: #173b3a;
+}
+
+.hero p {
+  color: gray;
+  width: 500px;
+}
+
+button {
+  background-color: #168477;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.box {
+  background-color: white;
+  padding: 40px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.how {
+  background-color: white;
+  padding: 50px;
+  text-align: center;
+}
+
+.steps {
+  display: flex;
+  gap: 20px;
+}
+
+.steps div {
+  flex: 1;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.steps p {
+  color: gray;
+}

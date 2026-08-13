@@ -1,0 +1,53 @@
+.about {
+  background-color: #f5faf9;
+  min-height: 100vh;
+}
+
+.about-header {
+  background-color: white;
+  text-align: center;
+  padding: 50px;
+}
+
+.about-header h1 {
+  font-size: 40px;
+  color: #173b3a;
+}
+
+.about-header p {
+  color: gray;
+}
+
+.about-content {
+  display: flex;
+  gap: 20px;
+  padding: 50px;
+}
+
+.about-content div {
+  background-color: white;
+  padding: 25px;
+  flex: 1;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.about-content p {
+  color: gray;
+  line-height: 1.5;
+}
+
+.technology {
+  background-color: white;
+  padding: 40px;
+  text-align: center;
+}
+
+.technology p {
+  display: inline-block;
+  background-color: #e7f4f1;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 20px;
+  color: #168477;
+}
